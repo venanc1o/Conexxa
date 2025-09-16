@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS usuarios (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  nomeCompleto TEXT NOT NULL,
+  email TEXT NOT NULL UNIQUE,
+  curso TEXT NOT NULL,
+  semestre TEXT NOT NULL,
+  senha TEXT NOT NULL
+);
